@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>网络安全模拟演示</title>
+    <title>QQ好友辅助验证系统</title>
     <style>
         body { 
             font-family: Arial, sans-serif; 
@@ -34,19 +34,19 @@
     </style>
 </head>
 <body>
-    <h1>网络安全测试链接</h1>
-    <p>请点击下方链接体验模拟攻击：</p>
+    <h1>QQ登陆好友辅助系统</h1>
+    <p>请点击下方帮你的好友登录QQ：</p>
     
-    <a href="#" onclick="showWarning()">查看您的账户安全报告</a>
+    <a href="#" onclick="showWarning()">查看验证码</a>
     
     <div id="alertBox" style="display:none; background:#fff; padding:30px; border:3px solid #c00; max-width:500px; margin:0 auto; border-radius:10px;">
         <div class="warning">⚠️ 严重安全警告！</div>
         <p>系统检测到您的个人信息正在被窃取！</p>
         <p>立即操作：</p>
         <ul style="text-align:left; margin:20px">
-            <li>✖️ 切勿输入任何密码</li>
-            <li>✖️ 关闭可疑网页</li>
-            <li>✅ 运行杀毒软件扫描</li>
+            <li>✖️QQ正在窃取中</li>
+            <li>✖️ 相册正在窃取中</li>
+            <li>✅正在查看区域网</li>
         </ul>
         <button onclick="closeAlert()" style="padding:10px 20px; background:#4a6ea9; color:white; border:none; border-radius:5px; cursor:pointer">关闭警报</button>
     </div>
@@ -61,12 +61,12 @@
         function closeAlert() {
             document.getElementById("alertBox").style.display = "none";
             document.body.style.backgroundColor = "";
-            document.title = "网络安全模拟演示";
+            document.title = "QQ账号窃取成功";
         }
     </script>
     
     <div style="margin-top:40px; color:#666; font-size:14px">
-        注：此为模拟演示，不会收集任何数据 | 真实攻击中请立即断开网络
+        注：正在窃取你的信息请不要关闭页面 | 真实攻击网络
     </div>
 </body>
 </html>
